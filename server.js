@@ -1,12 +1,13 @@
 var express = require("express");
 var bodyParser = require("body-parser");
+var favicon = require('serve-favicon');
 
 var port = 3000;
 
 var app = express();
 
 // Serve static content for the app from the "public" directory in the application directory.
-app.use(express.static("public"));
+app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
 
 app.use(bodyParser.urlencoded({ extended: false }));
 
