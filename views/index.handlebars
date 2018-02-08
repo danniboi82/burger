@@ -1,7 +1,22 @@
 <div class="container">
   <div class="row">
     <div class="col-sm-12 text-center">
-      <h1>Burgers</h1>
+      <div class="jumbotron">
+        <h3>
+          Welcome to <span class='brand'>FAKE Burgers!</span> Home of the Fake Burgers!
+        </h3>
+        <h5>May I take your Order Please!!</h5>
+      </div>
+    </div>
+  </div>
+
+  <div class="row ">
+    <div class="col-12-sm create-burger-form">
+      <form>
+        <label for="burger_name"></label>
+        <input type="text" class="form-control" placeholder="Enter your favorite burger" id="burger_name">
+        <button type="submit" class="btn btn-primary form-button" id="text-enter-button">Order Burger</button>
+      </form>
     </div>
   </div>
 
@@ -13,27 +28,16 @@
     </div>
 
     <div class="col-sm-6 text-center">
-      {{!--
-      <h2>No More Burgers SON!</h2> --}}
-
       <ul>
         {{#each burgers}} {{#if eaten}} {{> burgers/burger-block eat=false}} {{/if}} {{/each}}
       </ul>
     </div>
   </div>
 
-  <div class="row ">
-    <div class="col-12-sm create-burger-form">
-      <form >
 
-        <div class="form-group">
-          <label for="ca">Burger Name:</label>
-          <input type="text" id="ca" name="name">
-          <button type="submit">Add Burger</button>
-        </div>
-        
-      </form>
-    </div>
-  </div>
+
+
+
+
+
 </div>
-

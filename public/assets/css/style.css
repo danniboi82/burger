@@ -1,15 +1,97 @@
 body { 
-    background-image: url(https://i.ytimg.com/vi/rVTw5LK1zsQ/hqdefault.jpg);
+    background-image: url(http://theconcept21.com/wp-content/uploads/2012/07/wood-black-version_-fast-food-restaurant.jpg);
     background-color: white;
+    background-size: 100% 100%;
+    font-family: 'Lobster', cursive;
     color: black;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 
 .container {
-    background-color : white;
-    margin-top: 150px;
+    background: transparent;
+    margin-top: 10px;
     padding: 50px;
 }
 
 .create-burger-form{
     margin: 0 auto;
+    text-align: center;
+    width: 30%;
+}
+
+.jumbotron{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(http://www.textures4photoshop.com/tex/thumbs/fast-food-restaurant-background-with-chalkboard-texture-free-94.jpg);
+    background-size: cover;
+    color: white;
+    border: 5px solid yellow;
+    border-radius: 10px 10px 10px 10px;
+    
+}
+
+.form-button{
+    margin: 15px auto;
+}
+
+.burger-card{
+    width: 50%;
+    margin: auto; 
+    background: #551000;
+    color: white;
+}
+
+.burger-buns{
+    width: 50%;
+    margin: auto; 
+    background: #AA7939;
+    height: 30px;
+}
+
+.top{
+    border-radius: 30px 30px 0 0;
+}
+
+.bottom{
+    border-radius: 0 0 30px 30px;
+}
+
+.lettuce{
+    width: 50%;
+    margin: auto; 
+    background: green;
+    height: 4px;
+}
+
+.tomato{
+    width: 50%;
+    margin: auto; 
+    background: red;
+    height: 8px;
+}
+
+.cheese{
+    width: 50%;
+    margin: auto; 
+    background: yellow;
+    height: 5px;
+}
+
+.burger{
+    margin: 15px auto;
+
+}
+
+.change-eaten{
+    color: black;
+    margin: 15px auto;
+}
+
+.brand{
+    font-size: 50px;
+    color: red;
+    
+      
 }

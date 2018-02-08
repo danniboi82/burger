@@ -1,7 +1,13 @@
-<li>
-	{{burger_name}}
-
-	<button class="change-eaten" data-id="{{id}}" data-neweat="{{eat}}">
-		{{#if eat}}EAT IT!{{/if}}
+<li class='burger'>
+	<div class="card burger-buns top"></div>
+	<div class="card lettuce"></div>
+	<div class="card burger-card">
+		{{burger_name}}
+	</div>
+	<div class="tomato"></div>
+	<div class="card cheese"></div>
+	<div class="card burger-buns bottom"></div>
+	<button class="btn btn-danger change-eaten" data-id="{{id}}" data-neweat="{{eat}}">
+		{{#if eat}}Eat it!{{/if}} {{#unless eat}} Return it!{{/unless}}
 	</button>
 </li>
